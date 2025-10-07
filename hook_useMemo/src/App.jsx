@@ -2,6 +2,7 @@ import FactorialCalculator from "./components/FactorialCalculator";
 import ListSorting from "./components/ListSorting";
 import SearchFiltering from "./SearchFiltering";
 import Un_necessaryChildRenders from "./components/Un_necessaryChildRenders";
+import ApiData from "./components/ApiData";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
       <div>
         <h1 className="h1">Solution # 4</h1>
         <Un_necessaryChildRenders />
+      </div>
+      <div>
+        <h1 className="h1">Solution # 5</h1>
+        <ApiData />
       </div>
     </>
   );
