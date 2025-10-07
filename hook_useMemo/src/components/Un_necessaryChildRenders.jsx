@@ -9,6 +9,7 @@ function UnnecessaryChildRenders() {
   return (
     <>
       <Child user={user} />
+      Count: {count}
       <button onClick={() => setCount(count + 1)}>Increment</button>
     </>
   );
