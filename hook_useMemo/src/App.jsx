@@ -3,6 +3,7 @@ import ListSorting from "./components/ListSorting";
 import SearchFiltering from "./SearchFiltering";
 import Un_necessaryChildRenders from "./components/Un_necessaryChildRenders";
 import ApiData from "./components/ApiData";
+import FormValidation from "./components/FormValidation";
 import "./App.css";
 
 function App() {
@@ -22,11 +23,15 @@ function App() {
       </div> */}
       <div>
         <h1 className="h1">Solution # 4</h1>
-        <Un_necessaryChildRenders />
+        {/* <Un_necessaryChildRenders /> */}
       </div>
       <div>
         <h1 className="h1">Solution # 5</h1>
-        <ApiData />
+        {/* <ApiData /> */}
+      </div>
+      <div>
+        <h1 className="h1">Solution # 6</h1>
+        <FormValidation />
       </div>
     </>
   );
