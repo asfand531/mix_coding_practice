@@ -4,6 +4,7 @@ import SearchFiltering from "./SearchFiltering";
 import Un_necessaryChildRenders from "./components/Un_necessaryChildRenders";
 import ApiData from "./components/ApiData";
 import FormValidation from "./components/FormValidation";
+import DataVisualizationOptimization from "./components/DataVisualizationOptimization";
 import "./App.css";
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
       <div>
         <h1 className="h1">Solution # 6</h1>
         <FormValidation />
+      </div>
+      <div>
+        <h1 className="h1">Solution # 7</h1>
+        <DataVisualizationOptimization />
       </div>
     </>
   );
