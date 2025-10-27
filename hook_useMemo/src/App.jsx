@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <div>
+      <div>
         <h1 className="h1">Solution # 1</h1>
         <FactorialCalculator />
       </div>
@@ -21,14 +21,14 @@ function App() {
       <div>
         <h1 className="h1">Solution # 3</h1>
         <SearchFiltering />
-      </div> */}
+      </div>
       <div>
         <h1 className="h1">Solution # 4</h1>
-        {/* <Un_necessaryChildRenders /> */}
+        <Un_necessaryChildRenders />
       </div>
       <div>
         <h1 className="h1">Solution # 5</h1>
-        {/* <ApiData /> */}
+        <ApiData />
       </div>
       <div>
         <h1 className="h1">Solution # 6</h1>
